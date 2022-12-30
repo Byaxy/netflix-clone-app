@@ -28,7 +28,7 @@ const LogIn = () => {
   return (
     <>
       {/** TO DO: fix image background to cover entire content. */}
-      <div className="relative h-auto w-full">
+      <div className="relative h-[100vh] lg:h-auto w-full">
         <img
           className="min-h-full min-w-full object-cover"
           src={netflix}
@@ -38,7 +38,7 @@ const LogIn = () => {
         <div className="absolute top-0 left-0 h-full w-full bg-black sm:bg-black/60 grid grid-rows-[15vh 85vh] ">
           <Header />
           <div className="flex flex-col justify-center items-center text-white pt-12 px-5 md:px-12">
-            <div className="flex flex-col gap-6 min-h-[85vh] py-14 sm:w-[440px] sm:p-14 pb-20 bg-black/50 rounded">
+            <div className="flex flex-col gap-6 min-h-[60vh] py-14 sm:w-[440px] sm:p-14 pb-20 bg-black/50 rounded">
               <div>
                 <h3 className="text-3xl font-bold">Sign In</h3>
               </div>
