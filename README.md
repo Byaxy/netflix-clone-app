@@ -1,6 +1,6 @@
 # Netflix Clone App
 
-![Screen shot the Netflix Clone App page](src/assets/Screenshot.png)
+![Screen shot the Netflix Clone App page](./src/assets/Screenshot.png)
 
 This project is a clone of netflix.com, a movie streaing web application. I did this project as my final project for the ALX-Frontend Specialization Course to finalize the ALX Software Engineering Program.
 
