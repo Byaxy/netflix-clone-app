@@ -41,6 +41,7 @@ const Navbar = ({ isScrolled }) => {
           <div className="flex items-center justify-center">
             <img className="h-[2rem]" src={logo} alt="log" />
           </div>
+          {/** Mobile menu */}
           {open ? (
             <AiOutlineMenu
               className="text-white hover:text-veryLightGray md:hidden mr-4 h-8 w-8"
@@ -63,7 +64,7 @@ const Navbar = ({ isScrolled }) => {
               })}
             </ul>
           )}
-
+          {/** Tablet and Desktop menu */}
           <ul className="hidden md:flex gap-5 text-white">
             {links.map(({ name, path }) => {
               return (
@@ -74,6 +75,7 @@ const Navbar = ({ isScrolled }) => {
             })}
           </ul>
         </div>
+        {/** Logged In user Email and Logout btn */}
         <div className="flex items-center gap-4">
           <div className="text-white">
             <p>{user.email}</p>
