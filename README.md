@@ -15,4 +15,9 @@ This project is a clone of netflix.com, a movie streaing web application. I did 
 
 The application is hosted on firebase and you can find the likn to the live web app below.
 
-[Link to the live web app](https://duckduckgo.com).
+[Link to the live web app](https://netflix-clone-app-2aecd.web.app).
+
+#### Default credentials to Sign In:
+
+- Email: example@gmail.com
+- Password: Example123
