@@ -111,7 +111,7 @@ const Movie = ({ movie }) => {
       </div>
 
       {isHovered && (
-        <div className="absolute top-0 left-0 w-full h-full bg-black text-white z-[100]">
+        <div className="absolute top-0 left-0 w-full h-full bg-black text-white z-[90]">
           <video src={video} autoPlay muted loop></video>
           <div className="flex flex-col px-2 py-2 gap-1 sm:gap-2 justify-end text-white overflow-hidden">
             <h3
